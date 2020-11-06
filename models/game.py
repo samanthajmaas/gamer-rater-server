@@ -9,4 +9,4 @@ class Game(models.Model):
     number_of_players = models.IntegerField()
     time_of_play = models.IntegerField()
     recommended_age = models.IntegerField()
-    created_by = models.OneToOneField(User, on_delete=models.CASCADE)
+    created_by = models.ForeignKey(User, on_delete=models.CASCADE)

@@ -1,0 +1,16 @@
+[
+    {
+        "model": "raterprojectapi.game",
+        "pk": 1,
+        "fields": {
+            "title": "Settles of Catan",
+            "description": "Fun strategy game to get you so mad that you want to punch your husband for not trading with you",
+            "designer": "Hasbro games",
+            "year_released": "2010",
+            "number_of_players": 6,
+            "time_of_play": 2,
+            "recommended_age": 10,
+            "created_by": 1
+        }
+    }
+]
